@@ -6,7 +6,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
-    background-image: url('file:///C:\Users\Tyler\Documents\GitHub\Tyler-Wisniewski.github.io\header_background.jpg');
-   
+.headerimg {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
