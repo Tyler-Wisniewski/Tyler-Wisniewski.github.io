@@ -20,15 +20,16 @@ body {
     color: #99aab5;
 }
 
+
 .headerimg {
     position: relative;
     text-align: center;
     color: snow;
-    z-index: 2;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("header_background .jpg");
 }
 .centered {
     position: absolute;
@@ -49,13 +50,11 @@ body {
     font: inherit;
 }
 
-.navbartitle {
-    position: relative;
-    text-align: left;
-    padding-right: 40px;
-    color: #99aab5;
-    text-decoration-line:none;
+.navbartitle{
+   text-align:left
+       
 }
+
 .navbartextfirst {
     text-align: start;
     padding-left: 40px;
@@ -67,6 +66,7 @@ body {
     padding-left: 10px;
     text-decoration-line: none;
     color: #99aab5;
+    
 }
 
 .para {
@@ -74,4 +74,22 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+a {
+    text-decoration: none;
+    color: #99aab5;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+
+@media only screen and (max-device-width: 1366px) {
+    .headerimg {
+        background-attachment: scroll;
+    }
 }
