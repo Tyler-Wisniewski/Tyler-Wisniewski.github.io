@@ -54,6 +54,7 @@ body {
     text-align: left;
     padding-right: 40px;
     color: #99aab5;
+    text-decoration-line:none;
 }
 .navbartextfirst {
     text-align: start;
