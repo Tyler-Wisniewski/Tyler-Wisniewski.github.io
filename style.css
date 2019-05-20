@@ -50,17 +50,9 @@ body {
     font: inherit;
 }
 
-<<<<<<< HEAD
 .navbartitle{
    text-align:left
        
-=======
-.navbartitle {
-    position: relative;
-    text-align: left;
-    padding-right: 40px;
-    color: #99aab5;
->>>>>>> parent of 17d4960... triple fix home button
 }
 
 .navbartextfirst {
